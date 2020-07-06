@@ -73,6 +73,10 @@ endif
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
 
+"""""""""""""""""""""""""""""
+" => Oberon section
+"""""""""""""""""""""""""""""
+autocmd BufRead *.mod set syntax=oberon filetype=oberon shiftwidth=4 softtabstop=4 tabstop=4 expandtab
 
 """"""""""""""""""""""""""""""
 " => Markdown
